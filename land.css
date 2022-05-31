@@ -1,0 +1,274 @@
+body{
+  margin-top:0px;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url('land.images/background1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat:repeat;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  
+}
+P{
+  font-style:Arial;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+
+.header{
+  
+    height: 80px;
+      display: flex;
+  margin-bottom: 10px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      width: 100%;
+      z-index: 100;
+    
+
+}
+.left-section{
+  width:80px;
+}
+.logo{
+  width: 60px;
+  height:50px;
+  margin-top :10px; 
+  border-radius: 30px;
+  margin-right:10px ;
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
+
+
+.middle-section{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+ max-width:500px;
+  margin-left: 50px;
+  
+    margin-right: 100px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: -80px;
+
+}
+ul li{
+  list-style: none;
+  margin-left:50px ;
+  margin-right: 50px;
+}
+ul li a{
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+ul li a:hover{
+  
+  color: rgb(247, 72, 3);
+}
+
+.right-section{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+.search-bar{
+  flex:1;
+  height:26px;
+  width: 8px;
+  padding-left: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(52, 14, 14);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(32, 5, 5, 0.05);
+  margin-left: 100px;
+  
+ 
+}
+.search-button{
+  height: 32px;
+  width:60px;
+  font-size: 5px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(112, 103, 103);
+  margin-left: -1px;
+  border-radius: 2px;
+  border-width: 1px;
+  margin-right: 0px;
+  padding-left: 5px;
+}
+.search-icon{
+  height:20px;
+  margin-top: 4px;
+}
+.search-button:hover{
+  opacity: 0.8;
+}
+
+
+
+.header2{
+  
+      height: 450px;
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 0px;
+      margin-bottom:10px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      
+  }
+  
+.left2{
+  width:460px;
+  justify-content:center;
+  vertical-align: top;
+  margin-left: 50px;
+  min-width: 300px;
+  
+  
+}
+
+.title{
+  
+  font-weight: bold;
+  color: #fd1b0b;
+  margin-left: 20px;
+  font-size: 45px;
+  
+}
+.information{
+  
+  font-size: 13px;
+  margin-left: 10px;
+  line-height: 20px;
+  margin-top: 20px;
+  text-align: left;
+  color: rgb(26, 6, 248);
+  font-weight: bold;
+  
+}
+
+.for_more{
+  padding: 3px 12px 3px 12px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  background-color:white ;
+  border: none;
+  border-radius: 1px;
+}
+.for_more:hover{
+background-color: #df0bd0;
+color: white;
+
+
+}
+.right{
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  
+  
+ 
+
+}
+
+.profile-pic{
+  height: 300px;
+  width:300px;
+ margin-right:40px;
+ margin-top: 30px;
+ margin-left: 90px;
+}
+.header3{
+  height:40px;
+  color: rgb(4, 248, 8);
+  margin-left: 10px ;
+  font-style: italic;
+  text-decoration: underline;
+  
+  
+}
+
+.header4{
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-between;
+     align-items: center;
+}
+
+
+.header5{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  height: 100px;
+  justify-content: space-between;
+     align-items: center;
+     margin-top: 5px;
+     background-color: rgb(186, 225, 184);
+     min-width: 860px;
+
+     
+}
+
+
+.social-media{
+  display: flex;
+  flex:1;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(244, 6, 173);
+  margin-top: 10px;
+
+}
+.up{
+  margin-bottom: 0px;
+}
+
+.down{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons{
+  font-weight: bold;
+}
+.icon1{
+  height: 20px;
+  width: 20px;
+  margin:15px;
+  
+}
+.icon1:hover{
+  opacity: 0.5;
+ 
+}
+
+
+
